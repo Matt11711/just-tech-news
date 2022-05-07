@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
     ],
     order: [["created_at", "DESC"]],
     include: [
-      // include the Comment model here:
+      // include the Comment model here: please work
       {
         model: Comment,
         attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
